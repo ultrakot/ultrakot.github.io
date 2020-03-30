@@ -1,0 +1,54 @@
+body {
+    background-color: #fff6e4;;
+    font-family: yiddish;
+}
+#section1 {
+    background: url(../images/site-cover-no-cat.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-attachment: fixed;
+    height: 80vh; /* 30% of viewport height */
+    position: relative;
+ }
+
+
+
+.header-text{
+    color: rgb(255, 255, 255);
+    font-family: 'Spicy Rice', cursive;
+    padding-top: 6rem;
+}
+.home-box{
+    width: 15em;
+    background-color: #9e2d87;
+    height: 15em;
+}
+
+.tumbnail-img{
+    width: 22rem;
+    height: 16rem;
+}
+
+
+.background-img{
+    background: url(../images/constellation.jpg);
+    height: 17em;
+}
+
+.build-me-asite{
+    font-size: 5rem;
+    margin: 5vh;
+}
+
+/*IMPORTING THE FONTS*/
+@font-face {
+    font-family: yiddish;
+    font-weight: bold;
+    src: url("fonts/yiddishkeit-bold-fm") format("opentype");
+}
+
+
+
+
+
